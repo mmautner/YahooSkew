@@ -1,0 +1,12 @@
+YahooSkew
+
+A script for grabbing options market data from Yahoo finance 
+and deducing the implied volatility by strike from the 
+bid/ask data. This can be run on a cron job--but complications 
+can arise from not following business hours decay (as opposed 
+to calendar hours decay) and not accounting for a given stock's 
+non-zero discrete dividends.
+
+Hope this can be of use or inspiration to someone besides myself,
+
+Max
